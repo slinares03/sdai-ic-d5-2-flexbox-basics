@@ -20,7 +20,7 @@ Visit the [Flexbox Playground](https://animated-broccoli-qk8y6p8.pages.github.io
 ### ToDo list ✅
 
 1. **Introduction:**
-    - [ ] Understand the requirements of a flexible image gallery.
+    - [ ] Understand the requirements of a flexible image gallery. You might notice the images this time are optimized to be smaller than previous images we've used, which comes with costs and benefits, but is generally a best practice whenever you don't need larger, higher quality images.
 
 2. **Step-by-Step Walkthrough:**
     - [ ] **Task 1:** Create the HTML structure.
@@ -32,7 +32,7 @@ Visit the [Flexbox Playground](https://animated-broccoli-qk8y6p8.pages.github.io
         - Use `justify-content` to space the images evenly.
         - Use `align-items` to center the images vertically.
     - [ ] **Task 3:** Style the images.
-        - Set a fixed width and height for the images to ensure they are the same size. Starting with something like this can let you specify only images in the gallery:
+        - Set a fixed width and height for the images to ensure they are the same size, and craft two rows with 3-5 images per row. **Tip:** Starting with something like this can let you specify only images in the gallery:
         ```css 
         .gallery img {
             width: /* set a value that you feel looks good */;
