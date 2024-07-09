@@ -11,14 +11,12 @@ In this collaborative exercise, students will work with the instructor to build 
 2. **Step-by-Step Walkthrough:**
     - [ ] **Task 1:** Create the HTML structure.
         - Add a `<nav>` element with a class of `menu`.
-        - Add several `<a>` elements for each menu item.
+        - Add several `<a>` elements for each menu item and point them to the appropriate ID on the page, like this: `<a href="#about">About</a>`.
     - [ ] **Task 2:** Style the navigation menu using flexbox.
         - Set `display: flex;` on the `menu` class.
         - Use `justify-content` to space the items evenly.
         - Use `align-items` to center the items vertically.
-    - [ ] **Task 3:** Create a footer and add it to your `index.html` code.
-        - Add a `<footer>` element with a class of `footer`.
-        - Add some content inside the footer, like `<p>` elements or links.
+    - [ ] **Task 3:** Style the footer.
         - Style the footer using flexbox properties to ensure it is responsive.
 
 3. **Review:**
