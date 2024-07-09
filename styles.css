@@ -1,2 +1,126 @@
-/* styles.css */
-/* Add styles for nav menu and footer here */
+/* Base styles for mobile */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+#shows article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 0 0 1.5rem 0;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+#shows article img {
+    max-width: 20vw;
+    width: 20vw;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+#shows article h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+#shows article p {
+    margin: 5px 0;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+#contact address {
+    font-style: normal;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Media query for screens 576px and wider */
+@media screen and (min-width: 576px) {
+    #shows article {
+        flex-direction: row;
+        align-items: stretch;
+        padding: 0 1.25rem 0 0;
+    }
+
+    #shows article img {
+        width: auto;
+        margin-right: 2rem;
+        margin-bottom: 0;
+        object-fit: cover;
+    }
+
+    #shows article div {
+        flex: 1;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #shows article p {
+        text-align: left;
+        padding: 0;
+    }
+
+    #shows article h3 {
+        text-align: left;
+    }
+}

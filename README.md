@@ -1,7 +1,7 @@
 ## Together - Building a Responsive Navigation Menu and Footer 🤝
 
 **Description:**
-In this collaborative activity, students will work with the instructor to build a responsive navigation menu and footer using flexbox.
+In this collaborative exercise, students will work with the instructor to build a responsive navigation menu and footer using flexbox. Images have been modified with image editing software to be appropriately sized for this website and display better at multiple sizes.
 
 ### ToDo list ✅
 
